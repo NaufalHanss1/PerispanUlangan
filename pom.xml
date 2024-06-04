@@ -11,4 +11,18 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.testingwir1.Testingwir1</exec.mainClass>
     </properties>
+       <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+            <!-- Tambahkan plugin lainnya di sini -->
+        </plugins>
+    </build>
 </project>
