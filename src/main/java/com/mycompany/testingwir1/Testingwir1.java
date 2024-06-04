@@ -9,6 +9,7 @@ package com.mycompany.testingwir1;
  * @author oyest
  */
 
+import java.util.Scanner;
 
 public class Testingwir1 {
 
