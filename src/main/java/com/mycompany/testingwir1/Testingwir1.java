@@ -10,7 +10,7 @@ package com.mycompany.testingwir1;
  */
 
 
-
+public class Testingwir1 {
 
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
@@ -65,4 +65,4 @@ package com.mycompany.testingwir1;
         System.out.println("Calculator closed.");
     }
     }
-}
+
